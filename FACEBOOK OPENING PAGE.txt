@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook home</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-slate-100  ">
+    <section class="flex justify-center my-28">
+    <div class="my-12">
+        <img  src="Facebook.svg" alt="Facebook" class="h-16 w-48">
+<h1 class="font-mullish text-blue-800 text-xl ml-5">Facebook helps you connect and share<br> with the people in your life</h1>
+    </div>
+<!-- form -->
+<div class="px-2  bg-white h-[300px] w-[344px] mx-9 rounded-xl">
+    <input type="text" placeholder="Enter Email or Phone Number" class=" border border-2 outline-blue-600 border-white200 rounded-md border-solid h-6 w-80 px-3 py-3 my-5 mx-2   ">
+    <input type="password" placeholder="Password" class=" rounded-md  border border-2 border-white200 outline-blue-600  h-6 w-80 px-3 py-3 my-1  mx-2 my-2 rounded-md">
+
+
+    <button class="h-8 w-80 my-4 bg-blue-800 text-center text-white mx-2 hover:bg-blue-900">LOG IN</button>
+
+    <p class="mx-1 text-center cursor-pointer">Forget password ?</p>
+    <hr class="my-4">
+    
+
+    <button class="h-8 w-1/2  mx-20 bg-green-500  text-center text-white hover:bg-green-600 flex items-center justify-center">Create New Account</button>
+
+</div>
+</section>
+</body>
+</html>
